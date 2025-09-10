@@ -1,0 +1,105 @@
+/* Fuente limpia */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+/* Bandera */
+.bandera {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  height: 450px;
+  margin: 30px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.2);
+}
+
+.columna {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  position: relative;
+}
+
+.columna label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.columna input[type="range"] {
+  width: 80%;
+  margin: 10px 0;
+  accent-color: #006400; /* slider más bonito */
+}
+
+.columna p {
+  margin: 5px 0;
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Colores iniciales */
+.verde {
+  background-color: #008000;
+  color: white;
+}
+
+.blanca {
+  background-color: #FFFFFF;
+}
+
+.roja {
+  background-color: #9D0000;
+  color: white;
+}
+
+/* Escudo */
+.escudo {
+  width: 180px;
+  height: auto;
+  margin-top: 40px;
+  filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.2));
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #f8f9fa;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.autores {
+  text-align: center;
+}
+
+.autores h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #f8d210;
+}
+
+.autores p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}

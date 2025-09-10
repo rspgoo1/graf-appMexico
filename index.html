@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandera de México</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bandera de México</h1>
+  </header>
+
+  <main>
+    <div class="bandera">
+      <!-- Verde -->
+      <div class="columna verde">
+        <label for="verde">Esperanza</label>
+        <input type="range" id="verde" min="0" max="255" value="0">
+        <p id="codigoVerde">#008000</p>
+      </div>
+
+      <!-- Blanco con escudo -->
+      <div class="columna blanca">
+        <label>Unidad</label>
+        <p id="codigoBlanco">#FFFFFF</p>
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/500px-Coat_of_arms_of_Mexico.svg.png" 
+          alt="Escudo Nacional" 
+          class="escudo">
+      </div>
+
+      <!-- Rojo -->
+      <div class="columna roja">
+        <label for="rojo">Sangre de nuestros héroes nacionales</label>
+        <input type="range" id="rojo" min="0" max="255" value="157">
+        <p id="codigoRojo">#9D0000</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="autores">
+      <h2>Integrantes</h2>
+      <p>Olvera Jiménez Ronaldo – 23200151</p>
+      <p>Santiago Padilla Rubén – 23200158</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
